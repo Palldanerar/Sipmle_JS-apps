@@ -1,0 +1,27 @@
+[
+{
+    "name": "Dollar",
+    "ruName": "Доллар",
+    "rate": 61.48
+},
+{
+    "name": "Euro",
+    "ruName": "Евро",
+    "rate": 70
+},
+{
+    "name": "Pound Sterling",
+    "ruName": "Фунт Стерлингов",
+    "rate": 68
+},
+{
+    "name": "Polish Zloty",
+    "ruName": "Польский злотый",
+    "rate": 12.78
+},
+{
+    "name": "Shekel",
+    "ruName": "Новый израильский шекель",
+    "rate": 17.36
+}
+]
