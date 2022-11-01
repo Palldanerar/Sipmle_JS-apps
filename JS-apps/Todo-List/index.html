@@ -3,19 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-
-    <title>ToDo-List</title>
+    <title>ToDo-List(v 2)</title>
 </head>
 <body>
-    <h1>Список дел</h1>
-    <ul class="todo">
-    </ul>
+    
+    <header>
+        <h1>Task List</h1>
+        <form id="new__task__form">
+            <input type="text" id="new__task__input" placeholder="What do you have planned?">
+            <input type="submit" id="new__task__submit" value="Add task">
+        </form>
+    </header>
 
-    <input type="text" class="inputTask">
-    <button class="btn">Добавить</button>
+    <main>
+        <section class="task__list">
+            <h2>Tasks</h2>
+
+            <div id="tasks">
+
+                <!-- <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="test" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+
+            </div>
+        </section>
+    </main>
+
     <script src="script.js"></script>
 </body>
 </html>
