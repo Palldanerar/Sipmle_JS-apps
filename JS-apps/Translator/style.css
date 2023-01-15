@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:  #ffe0e5;
+}
+
+.container {
+    width: 690px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 30px;
+}
+
+.wrapper {
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+
+.text-input .from-to {
+    border-radius: 0px;
+    border-left: 1px solid #bbb;
+}
+
+.text-input textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: none;
+}
+
+.controls {
+    padding: 12px 15px;
+    list-style: none;
+}
+
+.controls, li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls .icons i{
+    color: #9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.controls .row select {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+}
+
+.controls .icons i:hover {
+    color: black;
+}
+
+.exchange {
+    color: #9f9f9f;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button {
+    font-size: 18px;
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    outline: none;
+    background: #ffe0e5;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    transition: background .3s;
+}
+
+.container button:hover {
+    background: #ff99aa;
+}
+
+select, option {
+    cursor: pointer;
+}
