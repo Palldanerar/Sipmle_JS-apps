@@ -1,2 +1,2 @@
 # Sipmle_JS-apps
-Сборник небольших программ на JavaScript/TypeScript.
+Сборник небольших программ на JavaScript.
