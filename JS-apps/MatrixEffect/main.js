@@ -29,7 +29,7 @@ function animation() {
   context.fillStyle = "rgba(0, 0, 0, 0.05)";
   context.fillRect(0, 0, canvas.width, canvas.height);
 
-  context.fillStyle = "green";
+  context.fillStyle = "#8b00ff";
   context.font = `bold ${FONT_SIZE}px monospace`;
   columns.forEach((column) => column.drawSymbol());
 
